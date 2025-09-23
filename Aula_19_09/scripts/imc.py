@@ -1,0 +1,5 @@
+nome = input("Digite o seu nome: ")
+peso = float(input("Digite o seu peso em kg: ").replace(",", "."))
+altura = float(input("Digite sua altura em m: ").replace(",", "."))
+imc = peso / (altura * altura)
+print(f"Seu imc é {imc:.2f} kg/m²")

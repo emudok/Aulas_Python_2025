@@ -1,0 +1,6 @@
+nome=input("Insira seu nome: ")
+data_nasci=int(input("Digite a data de nascimento: "))
+mes_nasci=int(input("Digite o mês de nascimento: "))
+ano_nasc=int(input("Digite o ano de nascimento: "))
+altura=float(input("Digite sua altura: ").replace(",","."))
+print(f"Olá, {nome}, nasceu em {data_nasci}/{mes_nasci}/{ano_nasc} e tem {altura:.2f} de altura.")
